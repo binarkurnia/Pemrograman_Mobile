@@ -25,7 +25,10 @@
             android:label="Registrasi Account Baru" />
         <activity
             android:name="fki.mobile.MainActivity"
-            android:label="Registrasi Account Baru" />             
+            android:label="Registrasi Account Baru" />
+		<activity
+            android:name="fki.mobile.MyListView"
+            android:label="Contoh ListView" />                     
     </application>
 
 </manifest>

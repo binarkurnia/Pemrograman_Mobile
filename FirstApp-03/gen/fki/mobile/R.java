@@ -8,6 +8,9 @@
 package fki.mobile;
 
 public final class R {
+    public static final class array {
+        public static final int adobe_products=0x7f060000;
+    }
     public static final class attr {
     }
     public static final class color {
@@ -43,48 +46,54 @@ public final class R {
         public static final int repeat_bg=0x7f020004;
     }
     public static final class id {
-        public static final int action_settings=0x7f08000c;
-        public static final int btnLinkToLoginScreen=0x7f08000b;
-        public static final int btnLinkToRegisterScreen=0x7f080006;
-        public static final int btnLoginTo=0x7f080005;
-        public static final int btnLogout=0x7f080002;
-        public static final int btnRegisterTo=0x7f08000a;
-        public static final int email_login=0x7f080003;
-        public static final int email_main=0x7f080001;
-        public static final int email_register=0x7f080008;
-        public static final int name_main=0x7f080000;
-        public static final int name_register=0x7f080007;
-        public static final int password_login=0x7f080004;
-        public static final int password_register=0x7f080009;
+        public static final int action_settings=0x7f090010;
+        public static final int btnLinkToLoginScreen=0x7f09000e;
+        public static final int btnLinkToRegisterScreen=0x7f090009;
+        public static final int btnLoginTo=0x7f090008;
+        public static final int btnLogout=0x7f090002;
+        public static final int btnRegisterTo=0x7f09000d;
+        public static final int email_login=0x7f090006;
+        public static final int email_main=0x7f090001;
+        public static final int email_register=0x7f09000b;
+        public static final int label=0x7f090005;
+        public static final int name_main=0x7f090000;
+        public static final int name_register=0x7f09000a;
+        public static final int password_login=0x7f090007;
+        public static final int password_register=0x7f09000c;
+        public static final int product_label=0x7f09000f;
+        public static final int showlist=0x7f090003;
+        public static final int textView1=0x7f090004;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int footer_repeat=0x7f030001;
         public static final int header_gradient=0x7f030002;
-        public static final int login=0x7f030003;
-        public static final int register=0x7f030004;
+        public static final int list_item=0x7f030003;
+        public static final int login=0x7f030004;
+        public static final int register=0x7f030005;
+        public static final int single_item_view=0x7f030006;
     }
     public static final class menu {
-        public static final int main=0x7f070000;
+        public static final int main=0x7f080000;
     }
     public static final class string {
-        public static final int action_settings=0x7f060001;
-        public static final int app_name=0x7f060000;
-        public static final int btn_link_to_login=0x7f06000e;
-        public static final int btn_link_to_register=0x7f06000d;
-        public static final int btn_login=0x7f06000b;
-        public static final int btn_logout=0x7f060010;
-        public static final int btn_register=0x7f06000c;
-        public static final int email=0x7f060004;
-        public static final int full_name=0x7f060003;
-        public static final int hello_world=0x7f060002;
-        public static final int hint_email=0x7f060008;
-        public static final int hint_name=0x7f06000a;
-        public static final int hint_password=0x7f060009;
-        public static final int login=0x7f060007;
-        public static final int name=0x7f060011;
-        public static final int password=0x7f060005;
-        public static final int register=0x7f060006;
-        public static final int welcome=0x7f06000f;
+        public static final int action_settings=0x7f070001;
+        public static final int app_name=0x7f070000;
+        public static final int btn_link_to_login=0x7f07000e;
+        public static final int btn_link_to_register=0x7f07000d;
+        public static final int btn_login=0x7f07000b;
+        public static final int btn_logout=0x7f070010;
+        public static final int btn_register=0x7f07000c;
+        public static final int email=0x7f070004;
+        public static final int full_name=0x7f070003;
+        public static final int hello_world=0x7f070002;
+        public static final int hint_email=0x7f070008;
+        public static final int hint_name=0x7f07000a;
+        public static final int hint_password=0x7f070009;
+        public static final int login=0x7f070007;
+        public static final int name=0x7f070011;
+        public static final int password=0x7f070005;
+        public static final int register=0x7f070006;
+        public static final int welcome=0x7f07000f;
     }
 }

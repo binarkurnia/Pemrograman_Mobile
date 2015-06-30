@@ -12,7 +12,7 @@ public class MainActivity extends Activity {
     //private TextView txtName;
     //private TextView txtEmail;
     private Button btnLogout;
-	
+    private Button btnShowList;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +22,15 @@ public class MainActivity extends Activity {
 		//txtName = (TextView) findViewById(R.id.name_main);
         //txtEmail = (TextView) findViewById(R.id.email_main);
         btnLogout = (Button) findViewById(R.id.btnLogout);
-        
+        btnShowList = (Button) findViewById(R.id.showlist);
+        btnShowList.setOnClickListener(new View.OnClickListener(){
+        	@Override
+        	public void onClick(View arg0){
+        		Intent intent = new Intent(getApplicationContext(), MyListView.class);
+                startActivity(intent);
+                finish();
+        	}
+        });
      // Logout button click event
         btnLogout.setOnClickListener(new View.OnClickListener() {
  
@@ -30,9 +38,13 @@ public class MainActivity extends Activity {
             public void onClick(View v) {
                 logoutUser();
             }
-        });  
+        }); 
+        
+        
 	
 	}
+	
+	
 	
 	//fungsi logout
 	private void logoutUser() {

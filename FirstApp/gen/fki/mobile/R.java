@@ -1095,7 +1095,7 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f090002;
         public static final int action_menu_presenter=0x7f090003;
         public static final int action_mode_close_button=0x7f090024;
-        public static final int action_settings=0x7f090044;
+        public static final int action_settings=0x7f090045;
         public static final int activity_chooser_view_content=0x7f090025;
         public static final int always=0x7f09000f;
         public static final int beginning=0x7f090016;
@@ -1118,6 +1118,7 @@ containing a value of this type.
         public static final int icon=0x7f09002a;
         public static final int ifRoom=0x7f090011;
         public static final int image=0x7f090027;
+        public static final int link_to_login=0x7f090044;
         public static final int link_to_register=0x7f09003f;
         public static final int listMode=0x7f090006;
         public static final int list_item=0x7f090029;

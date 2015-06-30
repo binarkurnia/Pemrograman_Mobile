@@ -96,6 +96,14 @@
                 android:id="@+id/btnRegister"
                 android:layout_width="fill_parent"
             	android:layout_height="wrap_content"
+            	android:layout_marginTop="10dip"
+            	android:text="Register Account Baru" />
+            
+			<!-- link to login screen -->                
+            <TextView
+                android:id="@+id/link_to_login"
+                android:layout_width="fill_parent"
+            	android:layout_height="wrap_content"
             	android:layout_marginTop="40dip"
             	android:layout_marginBottom="40dip"
             	android:text="Sudah punya account! Login di sini!"
